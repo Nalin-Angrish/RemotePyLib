@@ -1,4 +1,7 @@
 # RemotePyLib
 
-This is a package to use nalinstudios - RemotePyLib api. You can get it's website along with documentation at [this website](https://nalinstudios.herokuapp.com/remotepylib) .
-Get the Owner at [this website](https://nalinstudios.herokuapp.com/)
+This is a package to use nalinstudios - RemotePyLib api.  
+
+It's Official Website: [Visit](https://nalinstudios.herokuapp.com/remotepylib)  
+It's Official GitHub Page: [Visit](https://github.com/Nalin-2005/RemotePyLib)  
+It's Official PyPi Page: [Visit](https://pypi.org/project/RemotePyLib/)  
