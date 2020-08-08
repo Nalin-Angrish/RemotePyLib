@@ -7,3 +7,4 @@ This is a package to use NalinStudios - RemotePyLib api.
 It's Official Website: [Visit](https://nalinstudios.herokuapp.com/remotepylib)  
 It's Official GitHub Page: [Visit](https://nalinstudios.herokuapp.com/remotepylib/source)  
 It's Official PyPi Page: [Visit](https://nalinstudios.herokuapp.com/remotepylib/pypi)  
+(It's Relase History: [Visit](https://nalinstudios.herokuapp.com/remotepylib/pypi-history))
