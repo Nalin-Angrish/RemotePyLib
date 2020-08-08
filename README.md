@@ -1,7 +1,9 @@
 # RemotePyLib
 
-This is a package to use nalinstudios - RemotePyLib api.  
+Note that no code is made till now and it is recommended to use after version 1.0.0
+
+This is a package to use NalinStudios - RemotePyLib api.  
 
 It's Official Website: [Visit](https://nalinstudios.herokuapp.com/remotepylib)  
-It's Official GitHub Page: [Visit](https://github.com/Nalin-2005/RemotePyLib)  
-It's Official PyPi Page: [Visit](https://pypi.org/project/RemotePyLib/)  
+It's Official GitHub Page: [Visit](https://nalinstudios.herokuapp.com/remotepylib/source)  
+It's Official PyPi Page: [Visit](https://nalinstudios.herokuapp.com/remotepylib/pypi)  

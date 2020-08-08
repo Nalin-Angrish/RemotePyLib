@@ -1,5 +1,4 @@
 import setuptools
-v = "0.0.4"
 
 with open("README.md", "r") as fh:
     long_description = fh.read()
@@ -7,7 +6,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="RemotePyLib",
-    version=v,
+    version="0.0.5",
     author="Nalin Studios",
     author_email="nalinangrish2005@gmail.com",
     description="A package to import libraries remotely.",
