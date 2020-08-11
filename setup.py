@@ -6,7 +6,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="RemotePyLib",
-    version="0.0.6",
+    version="0.5.0",
     author="Nalin Studios",
     author_email="nalinangrish2005@gmail.com",
     description="A package to import libraries remotely.",
@@ -18,6 +18,11 @@ setuptools.setup(
         "Programming Language :: Python :: 3",
         "License :: OSI Approved :: MIT License",
         "Operating System :: OS Independent",
+    ],
+    install_requires=[
+        'requests',
+        'importlib',
+        'bs4'
     ],
     python_requires='>=3.0',
 )
