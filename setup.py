@@ -6,7 +6,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="RemotePyLib",
-    version="0.5.0",
+    version="1.0.0",
     author="Nalin Studios",
     author_email="nalinangrish2005@gmail.com",
     description="A package to import libraries remotely.",

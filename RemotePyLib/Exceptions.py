@@ -31,3 +31,10 @@ class ExportError(Exception):
             name (str): name of the module that was being tried to export
         """
         super().__init__(f"Could not Export module {name} because another module with the same name was present on the server. Try renaming the module and trying again.")
+
+
+class InvalidEmailError(Exception):
+    """An Exception thrown when the email address entered to upload a module is invalid
+    """
+    def __init__(self, email, chars):
+        super().__init__(f'The email address {email} is not a valid email because the following characters were not present in it: {chars}')
