@@ -13,9 +13,9 @@ It's Official PyPi Page: [Visit](https://nalinstudios.herokuapp.com/remotepylib/
 
 Firstly, you would have to install this package. To do so open up your Terminal/Command Prompt and type:
 
-        ```shell
+```shell
 pip install RemotePyLib
-        ```
+```
 
 
 
