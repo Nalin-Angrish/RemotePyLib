@@ -1,6 +1,6 @@
 """
-A python Library from Nalin Studios to import and export libraries remotely without storing them in the local storage.
-Author: Nalin Angrish (from Nalin Studios)
+A python Library from Nalin Angrish to import and export libraries remotely without storing them in the local storage.
+Author: Nalin Angrish
 """
 import requests
 import os
@@ -10,22 +10,21 @@ from RemotePyLib import Exceptions
 
 
 __author__ = "Nalin Angrish"
-__organisation__ = "Nalin Studios"
-__website__ = "https://nalinstudios.herokuapp.com/remotepylib"
-__source__ = "https://nalinstudios.herokuapp.com/remotepylib/source"
-__pypi__ = "https://nalinstudios.herokuapp.com/remotepylib/pypi"
+__website__ = "https://www.nalinangrish.me/apps/remotepylib"
+__source__ = "https://github.com/Nalin-2005/RemotePyLib"
+__pypi__ = "https://pypi.org/project/RemotePyLib/"
 
 
 
 
 
-API_GET = "http://localhost/remotepylib/get"
-API_UPLOAD = "http://localhost/remotepylib/upload"
+API_GET = "http://www.nalinangrish.me/apps/remotepylib/get"
+API_UPLOAD = "http://www.nalinangrish.me/apps/remotepylib/upload"
 
 
 
 class Importer(object):
-    """A class made to import libraries using nalinstudios RemotePyLib API
+    """A class made to import libraries using nalin angrish's RemotePyLib API
     """
     def execModule(self, modulename, key):
         """This method is used to execute the remote module on the local machine.
@@ -80,10 +79,10 @@ class Importer(object):
 
 
 class Exporter(object):
-    """A class to export custom libraries to nalinstudios - RemotePyLib API.
+    """A class to export custom libraries to nalin angrish's - RemotePyLib API.
     """
     def exportFile(self, filepath, modulename, email):
-        """Export a python file to the NalinStudios API
+        """Export a python file to the Nalin Angrish's API
             Returns the access key.
             Please keep the access key with you because it is required for importing the library. in case lost, contact the owner (go the the website and contact using email).
         
@@ -111,7 +110,7 @@ class Exporter(object):
         
 
     def exportString(self, content, modulename, email):
-        """Creates a remote library on NalinStudios - RemotePyLib API.
+        """Creates a remote library on Nalin Angrish's - RemotePyLib API.
         It returns the access key
         Please keep the access key with you because it is required for importing the library. in case lost, contact the owner (go the the website and contact using email).
         

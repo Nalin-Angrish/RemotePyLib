@@ -1,11 +1,11 @@
 # RemotePyLib
 
-This is a package to use NalinStudios - RemotePyLib API.  
+This is a package to use Nalin Angrish's - RemotePyLib API.  
 
-It's Official Website: [Visit](https://nalinstudios.herokuapp.com/remotepylib)  
-It's Official GitHub Page: [Visit](https://nalinstudios.herokuapp.com/remotepylib/source)  
-It's Official PyPi Page: [Visit](https://nalinstudios.herokuapp.com/remotepylib/pypi)  
-(It's Release History: [Visit](https://nalinstudios.herokuapp.com/remotepylib/pypi-history))
+It's Official Website: [Visit](http://www.nalinangrish.me/apps/remotepylib)  
+It's Official GitHub Page: [Visit](https://github.com/Nalin-2005/RemotePyLib)  
+It's Official PyPi Page: [Visit](https://pypi.org/project/RemotePyLib/)  
+(It's Release History: [Visit](https://pypi.org/project/RemotePyLib/#history))
 
 
 
@@ -19,7 +19,7 @@ pip install RemotePyLib
 
 
 
-Secondly, you would have to upload a module to the NalinStudios RemotePyLib API.
+Secondly, you would have to upload a module to the Nalin Angrish's RemotePyLib API.
 
 If you want to do so manually, go to the official website. Else if you wish to do so programmatically, follow the steps:
 
@@ -111,7 +111,7 @@ If stuck, refer to the documentation below or add an issue in the issues section
 
 > Importer
 ##### Desc.: 
-A class to remotely import packages using NalinStudios RemotePyLib API.
+A class to remotely import packages using Nalin Angrish's RemotePyLib API.
 
 ##### Functions:
 - execModule(self, modulename, key)  
@@ -141,11 +141,11 @@ It returns the module object for the imported module.
             myClass = module.myClass()
 > Exporter  
 ##### Desc.:
-A class to export custom libraries to NalinStudios - RemotePyLib API.
+A class to export custom libraries to Nalin Angrish's - RemotePyLib API.
 
 ##### Functions:
 - exportFile(self, filepath, modulename, email)  
-  Export a python file to the NalinStudios API.  
+  Export a python file to the Nalin Angrish's API.  
   Returns the access key.  
   Please keep the access key with you because it is required for importing the library. In case lost, contact the owner (go the the website and contact using email).
         
@@ -160,7 +160,7 @@ A class to export custom libraries to NalinStudios - RemotePyLib API.
             print(key)
 
 - exportString(self, content, modulename, email)  
-Creates a remote library on NalinStudios - RemotePyLib API.  
+Creates a remote library on Nalin Angrish's - RemotePyLib API.  
 It returns the access key.  
 Please keep the access key with you because it is required for importing the library. In case lost, contact the owner (go the the website and contact using email).
         

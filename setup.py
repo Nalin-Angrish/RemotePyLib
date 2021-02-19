@@ -6,13 +6,13 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="RemotePyLib",
-    version="1.0.1",
-    author="Nalin Studios",
-    author_email="nalinangrish2005@gmail.com",
+    version="1.0.2",
+    author="Nalin Angrish",
+    author_email="nalin@nalinangrish.me",
     description="A package to import libraries remotely.",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://nalinstudios.herokuapp.com/remotepylib/source",
+    url="http://www.nalinangrish.me/apps/remotepylib",
     packages=setuptools.find_packages(),
     classifiers=[
         "Programming Language :: Python :: 3",
