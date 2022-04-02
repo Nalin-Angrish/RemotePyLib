@@ -3,7 +3,7 @@
 This is a package to use Nalin Angrish's - RemotePyLib API.  
 
 It's Official Website: [Visit](http://www.nalinangrish.me/apps/remotepylib)  
-It's Official GitHub Page: [Visit](https://github.com/Nalin-2005/RemotePyLib)  
+It's Official GitHub Page: [Visit](https://github.com/Nalin-Angrish/RemotePyLib)  
 It's Official PyPi Page: [Visit](https://pypi.org/project/RemotePyLib/)  
 (It's Release History: [Visit](https://pypi.org/project/RemotePyLib/#history))
 

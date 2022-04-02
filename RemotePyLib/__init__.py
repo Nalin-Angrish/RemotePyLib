@@ -11,7 +11,7 @@ from RemotePyLib import Exceptions
 
 __author__ = "Nalin Angrish"
 __website__ = "https://www.nalinangrish.me/apps/remotepylib"
-__source__ = "https://github.com/Nalin-2005/RemotePyLib"
+__source__ = "https://github.com/Nalin-Angrish/RemotePyLib"
 __pypi__ = "https://pypi.org/project/RemotePyLib/"
 
 
